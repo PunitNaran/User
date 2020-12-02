@@ -1,0 +1,94 @@
+// myschema.fbs
+
+namespace users;
+
+struct Sexuality{
+	heterosexual:bool;
+	homosexual:bool;
+	bisexual:bool;
+}
+
+table Verification {
+	encrypted_email:string;
+	encrypted_mobile_no:string;
+	encrypted_pass:string;
+	incorrect_counts:uint8;
+}
+
+struct Age{
+	day:int;
+	month:int;
+	year:int;
+}
+
+table Islam {
+	community:string;
+}
+
+table Hinduism {
+	community:string;
+}
+
+table Christian {
+	community:string;
+}
+
+
+table Buddhism {
+	community:string;
+}
+
+table Religon {
+    any:bool;
+	christian:Christian;
+	islam:Islam;
+	agnostic:bool;
+	nonreligious:bool;
+	hinduism:Hinduism;
+	confucianism:bool;
+	taoism:bool;
+	buddhism:Buddhism;
+	sikhism:bool;
+	juche:bool;
+	spiritism:bool;
+	judaism:bool;
+	bahai:bool;
+	jainism:bool;
+	shinto:bool;
+	caodai:bool;
+	other:bool;
+}
+
+table EthnicGroup{
+    group:string(key);
+    background:string;
+}
+
+table Ethnicity{
+    ethnic_group:EthnicGroup;
+} 
+
+struct Gender{
+    male:bool;
+    female:bool;
+}
+
+table Profile {
+    avatar_name:string;
+    initals:string;
+    verification:Verification;
+}
+
+table User {
+    profile:Profile;
+    gender:Gender;
+    ethnicity:Ethnicity;
+    country:string;
+    religon:Religon;
+    personality:[string];
+    age:Age;
+    height:uint;
+    sexuality:Sexuality;
+}
+
+root_type User;

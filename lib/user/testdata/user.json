@@ -1,0 +1,99 @@
+{
+	"profile": {
+		"avatar_name": "dean",
+		"initals": "pn",
+		"verification": {
+			"encrypted_email": "deadrider@hotmail.co.uk",
+			"encrypted_mobile_number": 447365201909,
+			"encrypted_pass": "panipuri",
+			"incorrect_counts": 0
+		}
+	},
+	"gender": {
+		"male": true,
+		"female": false
+	},
+	"ethnicity": {
+		"ethnic_group": {
+			"asian": [
+				"Indian"
+			],
+			"black": null,
+			"mixed": null,
+			"white": null,
+			"other": null
+		}
+	},
+	"country": "United Kingdom",
+	"religion": {
+		"any": false,
+		"christian": {
+			"any": false,
+			"catholic": false,
+			"protestant": false,
+			"orthodox": false,
+			"other": false
+		},
+		"islam": {
+			"sunni": false,
+			"shite": false,
+			"sufi": false,
+			"bahai": false,
+			"ahmadiyyas": false,
+			"other": false
+		},
+		"agnostic": false,
+		"nonreligious": false,
+		"hinduism": {
+			"gujurati": true,
+			"jatt": false,
+			"panjabi": false,
+			"sunni": false,
+			"shia": false,
+			"brahmin": false,
+			"sindhi": false,
+			"bengali": false,
+			"tamil": false,
+			"malayali": false,
+			"maharashrian": false,
+			"kannada": false,
+			"urdu": false,
+			"kashmiri": false,
+			"rajisthani": false,
+			"other": false,
+			"none": false
+		},
+		"confucianism": false,
+		"taoism": false,
+		"buddhism": {
+			"mahayana": false,
+			"theravada": false,
+			"vajrayana": false
+		},
+		"sikhism": false,
+		"juche": false,
+		"spiritism": false,
+		"judaism": false,
+		"bahai": false,
+		"jainism": false,
+		"shinto": false,
+		"caoDai": false,
+		"other": false
+	},
+	"personality": [
+		"developer",
+		"foodie",
+		"sleepy"
+	],
+	"age": {
+		"day": 1,
+		"month": 11,
+		"year": 1993
+	},
+	"height": 178,
+	"sexuality": {
+		"heterosexual": true,
+		"homosexual": false,
+		"bisexual": false
+	}
+}

@@ -1,0 +1,53 @@
+profile:
+  avatar_name: dean
+  initals: pn
+  verification:
+      encrypted_email: deadrider@hotmail.co.uk
+      encrypted_mobile_number: +447365201909
+      encrypted_pass: panipuri
+      incorrect_counts: 0
+gender:
+  male: true
+  female: false
+ethnicity:
+  ethnic_group:
+    asian:
+      - Indian
+    black:
+    mixed:
+    white:
+    other:
+country: "United Kingdom"
+religion:
+  any: false
+  christian:
+    community:
+  islam:
+    community:
+  agnostic: false
+  nonreligious: false
+  hinduism:
+    community: gujurati
+  confucianism: false
+  taoism: false
+  buddhism:
+    community:
+  sikhism: false
+  juche: false
+  spiritism: false
+  judaism: false
+  bahai: false
+  jainism: false
+  shinto: false
+  caoDai: false
+  other: false
+personality: ['developer', 'foodie', 'sleepy']
+age:
+  day: 1
+  month: 11
+  year: 1993
+height: 178
+sexuality:
+  heterosexual: true
+  homosexual: false
+  bisexual: false
